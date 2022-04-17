@@ -13,7 +13,7 @@ import UpdateEvent from "./components/UpdateEvent";
 import DeleteEventConfirm from "./components/DeleteEventConfirm";
 
 // const urlLocal = "http://localhost:8000/agenda";
-const urlCloud = "https://agenda-be.vercel.app/agenda";
+const urlCloud = "https://agenda-backend.vercel.app/";
 
 const expresiones = {
   usuario: /^[a-zA-Z0-9_-]{4,16}$/, // Letras, numeros, guion y guion_bajo
